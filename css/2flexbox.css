@@ -1,0 +1,40 @@
+/* 부모 */
+.flex-item {
+    background-color: aqua;
+    /* width: 100px; */
+    height: 100px;
+    margin: 2px;
+}
+
+/* 자식 */
+.container {
+    display: flex;
+    height: 500px;
+    border: 1px solid red;
+    justify-content: space-around;
+    align-items : stretch;
+    align-content: center;
+    /* flex-wrap:wrap; */
+    flex-direction: column;
+}
+
+/* justify-content
+flex-start 
+flex-end
+center
+space-around
+space-between
+space-evenly */
+
+/* align-items 
+flex-start 
+flex-end
+center
+baseline 
+stretch (기본값| 효과:늘어남)
+*/
+
+.box3 { 
+    padding-top: 20px;
+    align-self: flex-end;
+}
